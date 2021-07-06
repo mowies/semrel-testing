@@ -4,7 +4,7 @@ on:
     inputs:
       base-branch:
         description: 'Which branch to create the release from (e.g., master, release-0.8.x)'
-        default: 'master'
+        default: 'main'
         required: false
 env:
   NODE_VERSION: 14
