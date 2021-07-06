@@ -1,6 +1,12 @@
 branches:
-  - name: 'main'
-  - name: 'release-+([0-9])?(.{+([0-9]),x}).x'
+  - 'main'
+  - '+([0-9])?(.{+([0-9]),x}).x'
+  - name: next
+    channel: next
+  - name: beta
+    channel: beta
+  - name: alpha
+    channel: alpha
 ci: true
 debug: true
 dryRun: false
