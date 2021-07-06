@@ -1,3 +1,10 @@
+### [0.9.2](https://github.com/mowies/semrel-testing/compare/v0.9.1...v0.9.2) (2021-07-06)
+
+
+### Bug Fixes
+
+* add super important new pipeline stuff ([a832490](https://github.com/mowies/semrel-testing/commit/a832490a698452adb7f948856478ab173a4c41af))
+
 ### [0.9.1](https://github.com/mowies/semrel-testing/compare/v0.9.0...v0.9.1) (2021-07-06)
 
 
