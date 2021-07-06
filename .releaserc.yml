@@ -22,11 +22,6 @@ plugins:
   - "@semantic-release/changelog"
   - "@semantic-release/git"
 
-###
-# Setup plugins:
-#   https://github.com/semantic-release/semantic-release/blob/caribou/docs/usage/plugins.md
-###
-
 # Responsible for verifying conditions necessary to proceed with the release:
 # configuration is correct, authentication tokens are valid, etc...
 verifyConditions:
