@@ -1,3 +1,10 @@
+## [0.10.0](https://github.com/mowies/semrel-testing/compare/v0.9.0...v0.10.0) (2021-07-06)
+
+
+### Features
+
+* adjust release branches ([4cdda0b](https://github.com/mowies/semrel-testing/commit/4cdda0b47e5c6f9c0139fa44964ef34d2cc31e7d))
+
 ## [0.9.0](https://github.com/mowies/semrel-testing/compare/v0.8.4...v0.9.0) (2021-07-06)
 
 
