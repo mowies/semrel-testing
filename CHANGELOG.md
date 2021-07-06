@@ -1,3 +1,10 @@
+## [0.12.0](https://github.com/mowies/semrel-testing/compare/v0.11.0...v0.12.0) (2021-07-06)
+
+
+### Features
+
+* very important removal of comment ([#4](https://github.com/mowies/semrel-testing/issues/4)) ([df1a115](https://github.com/mowies/semrel-testing/commit/df1a11586cbb3631bb00e1db05da432f8061615b))
+
 ## [0.11.0](https://github.com/mowies/semrel-testing/compare/v0.10.0...v0.11.0) (2021-07-06)
 
 
