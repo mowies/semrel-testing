@@ -1,3 +1,10 @@
+### [0.11.1](https://github.com/mowies/semrel-testing/compare/v0.11.0...v0.11.1) (2021-07-06)
+
+
+### Bug Fixes
+
+* fix bug where semantic-release would comment on lots of stuff ([#2](https://github.com/mowies/semrel-testing/issues/2)) ([bf4878d](https://github.com/mowies/semrel-testing/commit/bf4878d9edfa0381849c48d2b4901ce5a7f998ca))
+
 ## [0.11.0](https://github.com/mowies/semrel-testing/compare/v0.10.0...v0.11.0) (2021-07-06)
 
 
