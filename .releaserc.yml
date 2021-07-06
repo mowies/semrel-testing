@@ -130,4 +130,7 @@ prepare:
 # Responsible for publishing the release.
 publish:
   - path: '@semantic-release/github'
+
+success:
+  - path: '@semantic-release/github'
     successComment: false # Don't add comments to issues and PRs included in this release
