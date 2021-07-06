@@ -10,7 +10,7 @@ branches:
     prerelease: true
 ci: true
 debug: true
-dryRun: true
+dryRun: false
 tagFormat: 'v${version}'
 
 # Global plugin options (will be passed to all plugins)
