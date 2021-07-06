@@ -15,6 +15,13 @@ tagFormat: 'v${version}'
 # Global plugin options (will be passed to all plugins)
 preset: 'conventionalcommits'
 
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/github"
+  - "@semantic-release/changelog"
+  - "@semantic-release/git"
+
 ###
 # Setup plugins:
 #   https://github.com/semantic-release/semantic-release/blob/caribou/docs/usage/plugins.md
