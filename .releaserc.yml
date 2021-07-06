@@ -1,7 +1,7 @@
 branches:
-  - name: 'master'
   - name: 'main'
   - name: 'release-+([0-9])?(.{+([0-9]),x}).x'
+    prerelease: false
   - name: 'next'
   - name: 'next-major'
   - name: 'beta'
@@ -125,7 +125,7 @@ prepare:
     # Create or update the changelog file in the local project repository
   - path: '@semantic-release/git'
     # Push a release commit and tag, including configurable files
-    message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
+    message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     assets: ['CHANGELOG.md']
 
 # Responsible for publishing the release.
