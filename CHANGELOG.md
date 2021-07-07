@@ -1,3 +1,10 @@
+### [0.12.2](https://github.com/mowies/semrel-testing/compare/v0.12.1...v0.12.2) (2021-07-07)
+
+
+### Bug Fixes
+
+* very important bug that is fixed now ([4a92805](https://github.com/mowies/semrel-testing/commit/4a92805e33880b814cf1d611406b7b387b176f71))
+
 ### [0.12.1](https://github.com/mowies/semrel-testing/compare/v0.12.0...v0.12.1) (2021-07-07)
 
 
