@@ -9,7 +9,7 @@ import (
 
 //go:embed config.yaml
 var yamlConfig []byte
-var cfgUpdated KeptnGoUtilsConfig
+var cfg KeptnGoUtilsConfig
 
 var doOnce = sync.Once{}
 
@@ -21,10 +21,10 @@ type KeptnGoUtilsConfig struct {
 // GetKeptnGoUtilsConfig take the config.yaml file and reads it into the KeptnGoUtilsConfig struct
 func GetKeptnGoUtilsConfig() KeptnGoUtilsConfig {
 	doOnce.Do(func() {
-		err := yaml.Unmarshal(yamlConfig, &cfgUpdated)
+		err := yaml.Unmarshal(yamlConfig, &cfg)
 		if err != nil {
-			cfgUpdated = KeptnGoUtilsConfig{}
+			cfg = KeptnGoUtilsConfig{}
 		}
 	})
-	return cfgUpdated
+	return cfg
 }
