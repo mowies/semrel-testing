@@ -34,12 +34,12 @@ func NewDownloader(opts ...DownloaderOption) *Downloader {
 
 // DownloadFromURL downloads a file from an URL and returns the content
 // as a slice of bytes
-func (d Downloader) DownloadFromURL(URL string) ([]byte, error) {
+func (downloader Downloader) DownloadFromURL(URL string) ([]byte, error) {
 	if !IsValidURL(URL) {
 		return nil, fmt.Errorf("%s is not a valid URL", URL)
 	}
 	c := http.Client{
-		Timeout: d.Timeout,
+		Timeout: downloader.Timeout,
 	}
 	resp, err := c.Get(URL)
 	if err != nil {
