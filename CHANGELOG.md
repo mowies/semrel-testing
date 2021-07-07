@@ -1,3 +1,14 @@
+## [0.13.0](https://github.com/mowies/semrel-testing/compare/v0.12.2...v0.13.0) (2021-07-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* new important major update to everything
+
+### Features
+
+* new important major update to everything ([ed97b67](https://github.com/mowies/semrel-testing/commit/ed97b675ca9a7cf50885fbeeb37bca107779b01a))
+
 ### [0.12.2](https://github.com/mowies/semrel-testing/compare/v0.12.1...v0.12.2) (2021-07-07)
 
 
