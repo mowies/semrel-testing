@@ -1,11 +1,6 @@
 name: Release
 on:
   workflow_dispatch:
-    inputs:
-      base-branch:
-        description: 'Which branch to create the release from (e.g., master, release-0.8.x)'
-        default: 'main'
-        required: false
 env:
   NODE_VERSION: 14
 defaults:
@@ -17,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.inputs.base-branch }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
