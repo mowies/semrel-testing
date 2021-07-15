@@ -1,3 +1,14 @@
+## [0.15.0](https://github.com/mowies/semrel-testing/compare/v0.14.1...v0.15.0) (2021-07-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* all the code is gone
+
+### Features
+
+* remove unneeded code ([#10](https://github.com/mowies/semrel-testing/issues/10)) ([655c078](https://github.com/mowies/semrel-testing/commit/655c07890e295776e8b7d578f5cb83a486a178f4))
+
 ### [0.14.1](https://github.com/mowies/semrel-testing/compare/v0.14.0...v0.14.1) (2021-07-15)
 
 
