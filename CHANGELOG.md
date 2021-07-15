@@ -1,3 +1,10 @@
+## [0.14.0](https://github.com/mowies/semrel-testing/compare/v0.13.0...v0.14.0) (2021-07-15)
+
+
+### Features
+
+* new awesome feature in markdown file ([#6](https://github.com/mowies/semrel-testing/issues/6)) ([d140dd5](https://github.com/mowies/semrel-testing/commit/d140dd585ad10f8281d6312bee0380c29f4cff6d))
+
 ## [0.13.0](https://github.com/mowies/semrel-testing/compare/v0.12.2...v0.13.0) (2021-07-07)
 
 
