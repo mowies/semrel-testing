@@ -1,3 +1,10 @@
+### [0.14.1](https://github.com/mowies/semrel-testing/compare/v0.14.0...v0.14.1) (2021-07-15)
+
+
+### Bug Fixes
+
+* disallow usage of [0-9].x.x branches ([#8](https://github.com/mowies/semrel-testing/issues/8)) ([bf97c5e](https://github.com/mowies/semrel-testing/commit/bf97c5ee932cc016215e03ec81ebf629d1c71418))
+
 ## [0.14.0](https://github.com/mowies/semrel-testing/compare/v0.13.0...v0.14.0) (2021-07-15)
 
 
