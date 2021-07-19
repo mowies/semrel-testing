@@ -1,3 +1,22 @@
+## [0.16.0](https://github.com/mowies/semrel-testing/compare/v0.15.0...v0.16.0) (2021-07-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* change release scheme to trunk based
+
+### Features
+
+* always build prereleases on main branch ([00adec5](https://github.com/mowies/semrel-testing/commit/00adec54f3b163d17f4fb146ff4524dd73a44747))
+* change release scheme to trunk based ([146c14a](https://github.com/mowies/semrel-testing/commit/146c14a9cd846b4bd7fec23980f17866700c2258))
+
+
+### Bug Fixes
+
+* update release branches to fit semantic release pattern ([03d8a44](https://github.com/mowies/semrel-testing/commit/03d8a44e678e1c62690fd4e7f33374205a54ce55))
+* update release branches to fit semantic release pattern ([c1f4568](https://github.com/mowies/semrel-testing/commit/c1f4568480c2d50cc6a0df68e66a2e3f0e55375c))
+* update release branches to fit semantic release pattern ([81bb1e0](https://github.com/mowies/semrel-testing/commit/81bb1e08cec94588a4d5742bb51a81c08fd8f86f))
+
 ## [0.15.0](https://github.com/mowies/semrel-testing/compare/v0.14.1...v0.15.0) (2021-07-15)
 
 
