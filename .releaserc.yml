@@ -1,6 +1,5 @@
 branches:
   - name: 'main'
-    prerelease: 'dev'
   - name: '+([0-9]).+([0-9]).x'
 ci: true
 debug: true
